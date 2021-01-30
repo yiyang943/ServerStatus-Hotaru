@@ -72,6 +72,7 @@ cp -r ../web/* /home/wwwroot/public #此为站点根目录，请自行设置
 使用Psutil版即可使ServerStatus客户端在Windows等平台运行
 
 ```
+windows:
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py ::若未安装pip
 python get-pip.py
 python pip install psutil
